@@ -1,7 +1,7 @@
 name: trext
-description: Short and Simple way of using Flutter's Text widget
-version: 0.0.1
-homepage:
+description: High level Text widget for Flutter for easy and simple use.
+version: 1.0.0
+homepage: https://github.com/Fauzdar1/trext
 
 environment:
   sdk: ">=2.17.3 <3.0.0"

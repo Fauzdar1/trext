@@ -97,12 +97,17 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const Trext('str'),
-            const Text(
+            const Trext(
               'You have pushed the button this many times:',
             ),
-            Text(
+            Trext(
               '$_counter',
               style: Theme.of(context).textTheme.headline4,
+            ),
+            Trext(
+              '$_counter',
+              bold: true,
+              color: Colors.blueAccent,
             ),
           ],
         ),
